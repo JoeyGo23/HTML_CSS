@@ -50,7 +50,7 @@
 		.F{
 
 			font-size: 350%;
-
+			 
 		}
 
 		.noticed{
@@ -98,6 +98,40 @@
 
 		}
 
+	.rotate_Vertical {
+	
+	  -webkit-transform: rotate(-90deg);
+	  -moz-transform: rotate(-90deg);
+	  -ms-transform: rotate(-90deg);
+	  -o-transform: rotate(-90deg);
+	  transform: rotate(-90deg);
+
+	  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+	  -webkit-transform-origin: 50% 50%;
+	  -moz-transform-origin: 50% 50%;
+	  -ms-transform-origin: 50% 50%;
+	  -o-transform-origin: 50% 50%;
+	  transform-origin: 50% 50%;
+
+	}
+
+		.f .rotate_Horiz {
+	
+	  -webkit-transform: rotate(-180deg);
+	  -moz-transform: rotate(-180deg);
+	  -ms-transform: rotate(-d);
+	  -o-transform: rotate(-180deg);
+	  transform: rotate(-180deg);
+
+	  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+	  -webkit-transform-origin: 50% 50%;
+	  -moz-transform-origin: 50% 50%;
+	  -ms-transform-origin: 50% 50%;
+	  -o-transform-origin: 50% 50%;
+	  transform-origin: 50% 50%;
+
+	}
+
 
 	</style>
 
@@ -108,9 +142,9 @@
  <!-- What kind of Car / make / model / year -->
 <div class="your_rims_first_H1">
 
-	<H1> Your rims are the
+	<H1 class="rotate_Vertical"> Your rims are the
 		 
-		 <span class="F">F</span>
+		 <span class="f rotate_horiz">F</span>
 
 		 <span class="first">irst</span> 
 		 

@@ -42,6 +42,11 @@ body {
     zoom: 25%;
   }
 }
+.bottom {
+  vertical-align: bottom;
+  /*margin-top: 99%;*/
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -49,7 +54,9 @@ body {
   height: 100%;
   /* For at least Firefox */
   background-image: url("img/cartel_mustang_light.jpg");
+  background-repeat: no-repeat;
   min-height: 100%;
+  /*zoom: 100%;*/
 }
 
 .site-wrapper-inner {

@@ -28,6 +28,19 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  font-family: 'Lobster', cursive;
+
+  p{
+
+  font-family: 'Anton', sans-serif;
+
+  }
+  
+  select{
+
+  font-family: 'Fjalla One', sans-serif;
+
+  }
 }
 body {
   color: #fff;
@@ -55,6 +68,19 @@ body {
   color: black;
 
 }
+
+.lead{
+
+  text-transform: uppercase;
+
+}
+
+.cover-heading{
+
+  background-color: grey;
+
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {

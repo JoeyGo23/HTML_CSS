@@ -26,6 +26,15 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  font-family: 'Lobster', cursive;
+}
+html p,
+body p {
+  font-family: 'Anton', sans-serif;
+}
+html select,
+body select {
+  font-family: 'Fjalla One', sans-serif;
 }
 
 body {
@@ -46,6 +55,14 @@ body {
 }
 .CarType {
   color: black;
+}
+
+.lead {
+  text-transform: uppercase;
+}
+
+.cover-heading {
+  background-color: grey;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */

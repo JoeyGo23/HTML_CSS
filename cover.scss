@@ -40,13 +40,16 @@ body {
 /* PHONE */
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     
   .site-wrapper{
     zoom: 25%;
+    width: 100%;
+    position: relative;
+    /*background-image: url('img/cartel_mustang.jpg');*/
   }
+  
+ 
 
 }
 
@@ -56,7 +59,7 @@ and (max-device-width : 480px) {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
-  background-image: url('img/cartel_mustang_light.jpg');
+  /*background-image: url('img/cartel_mustang_light.jpg');*/
   background-repeat:no-repeat;
   min-height: 100%;
   /*zoom: 100%;*/
@@ -75,6 +78,10 @@ and (max-device-width : 480px) {
   padding: 30px;
 }
 
+.bgnd_img{
+  position: absolute;
+
+}
 
 /*
  * Header

@@ -40,6 +40,9 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .site-wrapper {
     zoom: 25%;
+    width: 100%;
+    position: relative;
+    /*background-image: url('img/cartel_mustang.jpg');*/
   }
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -48,7 +51,7 @@ body {
   width: 100%;
   height: 100%;
   /* For at least Firefox */
-  background-image: url("img/cartel_mustang_light.jpg");
+  /*background-image: url('img/cartel_mustang_light.jpg');*/
   background-repeat: no-repeat;
   min-height: 100%;
   /*zoom: 100%;*/
@@ -67,6 +70,10 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
+}
+
+.bgnd_img {
+  position: absolute;
 }
 
 /*

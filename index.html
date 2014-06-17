@@ -20,9 +20,16 @@
   
   <!-- Change When Car Selected -->
     <script type="text/javascript">
-        window.onload = function(){
-          location.href = document.getElementById("fooboo").value;
-        }       
+      
+      // window.onload = function(){
+        // location.href=document.getElementById("foo").value;
+      // }//Sample OnChange WORKS     
+
+      function buttonClick(){
+        // location.href=document.getElementById("fooboo").value;
+        window.location=document.getElementById("fooboo").value;
+      }     
+
     </script>
   <!--  -->
   
@@ -71,7 +78,7 @@
 
 
             <p class="lead">
-              <button id="link"class="noticed btn btn-lg btn-default" onClick=function();>Get Noticed</button>
+              <button id="link"class="noticed btn btn-lg btn-default" onClick="buttonClick()";>Get Noticed</button>
             </p>
 
           </div>

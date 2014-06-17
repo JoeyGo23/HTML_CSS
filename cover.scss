@@ -29,6 +29,7 @@ body {
   height: 100%;
   background-color: #333;
   font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
 
   p{
 
@@ -81,6 +82,18 @@ body {
 
 }
 
+p .story{
+
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.lead{
+  z-index: 100;
+
+}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {

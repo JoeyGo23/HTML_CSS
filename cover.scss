@@ -10,8 +10,12 @@ a:hover {
 }
 
 /* Custom default button */
+.btn-default:hover{
+  background-color: grey;
+  color: white;
+
+}
 .btn-default,
-.btn-default:hover,
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
@@ -30,16 +34,19 @@ body {
   background-color: #333;
   font-family: 'Lobster', cursive;
   letter-spacing: 3px;
+  text-align: center;
 
   p{
 
   font-family: 'Anton', sans-serif;
+  vertical-align: middle;
 
   }
   
   select{
 
   font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
 
   }
 }
@@ -67,6 +74,7 @@ body {
 .CarType{
 
   color: black;
+  margin-bottom: 30px;
 
 }
 
@@ -76,9 +84,16 @@ body {
 
 }
 
+.noticed{
+
+  font-size: 2em;
+
+}
+
 .cover-heading{
 
   background-color: grey;
+  padding-bottom: 30px;
 
 }
 
@@ -86,14 +101,9 @@ p .story{
 
   vertical-align: middle;
   text-align: center;
-  margin-top: 100px;
   display: inline-table;
 }
 
-.lead{
-  z-index: 900;
-
-}
 
 form{
 

@@ -95,21 +95,21 @@ body {
 }
 .CarType {
   color: black;
-  margin-bottom: 30px;
 }
 
 .lead {
   text-transform: uppercase;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.driving {
+  font-size: 30px;
 }
 
 .noticed {
   font-size: 2em;
   text-transform: uppercase;
-}
-
-.cover-heading {
-  background-color: grey;
-  padding-bottom: 30px;
 }
 
 p .story {
@@ -146,10 +146,6 @@ form {
 }
 
 /* Padding for spacing */
-.inner {
-  padding: 10px;
-}
-
 .bgnd_img {
   position: absolute;
 }
